@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "coverageRoots": [
+    "Assets/Script",
+    "Assets/Editor",
+    "Assets/Tests",
+    "Assets/Prototype"
+  ],
+  "systems": [
+    {
+      "id": "bootstrap-framework",
+      "page": "ProjectAtlas/Features/bootstrap-framework.md",
+      "prefixes": ["Assets/Script/Framework/", "Assets/Script/Analytic/"],
+      "files": ["Assets/Script/GameBootstrap.cs"]
+    },
+    {
+      "id": "networking-steam",
+      "page": "ProjectAtlas/Features/networking-steam.md",
+      "prefixes": ["Assets/Script/Network/"],
+      "files": []
+    },
+    {
+      "id": "player",
+      "page": "ProjectAtlas/Features/player.md",
+      "prefixes": [],
+      "files": [
+        "Assets/Script/Player/CharacterController2D.cs",
+        "Assets/Script/Player/PlayerEyeballs.cs",
+        "Assets/Prototype/HeadLurePhysics/Scripts/PhysicsHeadLure2D.cs",
+        "Assets/Prototype/HeadLurePhysics/Scripts/HeadLureBulbVisual.cs"
+      ]
+    },
+    {
+      "id": "holding-and-hands",
+      "page": "ProjectAtlas/Features/holding-and-hands.md",
+      "prefixes": ["Assets/Script/Player/Hand Handle/", "Assets/Script/Player/Holding/"],
+      "files": [
+        "Assets/Script/Player/CargoGrabController.cs",
+        "Assets/Tests/EditMode/WeightedHoldingEditModeTests.cs",
+        "Assets/Tests/PlayMode/WeightedHoldingPlayModeTests.cs",
+        "Assets/Editor/WeightedHoldingValidator.cs"
+      ]
+    },
+    {
+      "id": "cargo",
+      "page": "ProjectAtlas/Features/cargo.md",
+      "prefixes": ["Assets/Script/Cargo System/", "Assets/Script/Rendering/"],
+      "files": [
+        "Assets/Script/GlobalManager/ParticleManager.cs",
+        "Assets/Tests/EditMode/CargoPrototypeEditModeTests.cs",
+        "Assets/Tests/PlayMode/CargoPrototypePlayModeTests.cs",
+        "Assets/Editor/CargoPolishMigrationTool.cs",
+        "Assets/Editor/CargoPolishProfileValidator.cs",
+        "Assets/Editor/CargoPrototypeValidator.cs",
+        "Assets/Editor/Physics2DTo3DConverter.cs"
+      ]
+    },
+    {
+      "id": "ship-core",
+      "page": "ProjectAtlas/Features/ship-core.md",
+      "prefixes": ["Assets/Script/Ship System/ShipRoom/"],
+      "files": ["Assets/Script/Ship System/NetworkHelper.cs"]
+    },
+    {
+      "id": "ship-machines",
+      "page": "ProjectAtlas/Features/ship-machines.md",
+      "prefixes": ["Assets/Script/Ship System/ShipMachine/", "Assets/Script/Ship System/ShipResources/"],
+      "files": ["Assets/Script/_Interface/MachineInstance.cs"]
+    },
+    {
+      "id": "map-generation",
+      "page": "ProjectAtlas/Features/map-generation.md",
+      "prefixes": ["Assets/Script/Map System/LevelGenarator/"],
+      "files": []
+    },
+    {
+      "id": "map-nodes-navigation",
+      "page": "ProjectAtlas/Features/map-nodes-navigation.md",
+      "prefixes": ["Assets/Script/Map System/MapLevelNavigation/", "Assets/Script/Map System/MapNodeGenerator/"],
+      "files": []
+    },
+    {
+      "id": "sonar",
+      "page": "ProjectAtlas/Features/sonar.md",
+      "prefixes": ["Assets/Script/Ship System/SonarSystem/"],
+      "files": []
+    },
+    {
+      "id": "ui-and-menus",
+      "page": "ProjectAtlas/Features/ui-and-menus.md",
+      "prefixes": ["Assets/Script/UI/", "Assets/Script/Menu/"],
+      "files": []
+    },
+    {
+      "id": "tutorial",
+      "page": "ProjectAtlas/Features/tutorial.md",
+      "prefixes": ["Assets/Script/Tutorial/"],
+      "files": []
+    },
+    {
+      "id": "audio-and-camera",
+      "page": "ProjectAtlas/Features/audio-and-camera.md",
+      "prefixes": ["Assets/Script/Audio/", "Assets/Script/Camera/"],
+      "files": []
+    },
+    {
+      "id": "editor-tooling",
+      "page": "ProjectAtlas/CrossCutting/editor-tooling-and-tests.md",
+      "prefixes": ["Assets/Script/Editor/"],
+      "files": []
+    },
+    {
+      "id": "runtime-prototypes",
+      "page": "ProjectAtlas/CrossCutting/editor-tooling-and-tests.md",
+      "prefixes": ["Assets/Script/Misc/"],
+      "files": [
+        "Assets/Prototype/HeadLurePhysics/Scripts/PrototypePlayerDriver3D.cs"
+      ]
+    }
+  ],
+  "excludedFiles": [
+    "Assets/Script/_Interface/IPlayerInteractable.cs",
+    "Assets/Script/Audio/Footstep.cs",
+    "Assets/Script/Player/Hand Handle/PlayerHandController.cs",
+    "Assets/Script/Player/Platform Handle/PlatformController.cs",
+    "Assets/Script/Player/Platform Handle/PlatformUnit.cs",
+    "Assets/Script/Player/PlayerAnimationTrigger.cs",
+    "Assets/Script/Player/PlayerController(Nomal Networktranform)/PlayerController.cs",
+    "Assets/Script/UI/Setting & Main Menu/SessionPanel.cs",
+    "Assets/Script/Ship System/ShipMachine/MachineData/OxygenMachineData.cs",
+    "Assets/Script/Ship System/ShipMachine/MachineData/PowerMachineData.cs",
+    "Assets/Script/Ship System/ShipMachine/MachineData/PressureMachineData.cs",
+    "Assets/Script/Ship System/ShipMachine/MachineData/TemperatureMachineData.cs",
+    "Assets/Script/Ship System/ShipMachine/MinigameLogic/DrainPump.cs",
+    "Assets/Script/Ship System/ShipMachine/MinigameLogic/Fuel.cs",
+    "Assets/Script/Ship System/ShipMachine/MinigameLogic/FuelItemData.cs",
+    "Assets/Script/Ship System/ShipMachine/MinigameLogic/WaterPumpController.cs",
+    "Assets/Script/Ship System/ShipMachine/O2_Machine/FuelOxygen.cs",
+    "Assets/Script/Ship System/ShipResources/ResourceDebugUI.cs",
+    "Assets/Script/Ship System/ShipResources/ResourceManager.cs"
+  ]
+}

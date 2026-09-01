@@ -1,0 +1,11 @@
+/*
+ * Theme assigned to the PanelSettings asset.
+ *
+ * Importing the project theme here means every UIDocument that uses PressureExpressPanelSettings
+ * picks up the styling automatically, so no UXML has to remember to reference the stylesheet.
+ * The UXML files also declare it directly, which is harmless and keeps them previewable on their
+ * own in UI Builder.
+ */
+
+@import url("unity-theme://default");
+@import url("/Assets/UI/PressureExpress.uss");

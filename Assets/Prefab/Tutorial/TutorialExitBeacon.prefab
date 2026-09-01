@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8808774887140703959
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 451041192885999569, guid: 66d4fa73a35433a469c29e55cad0690b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451041192885999569, guid: 66d4fa73a35433a469c29e55cad0690b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451041192885999569, guid: 66d4fa73a35433a469c29e55cad0690b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451041192885999569, guid: 66d4fa73a35433a469c29e55cad0690b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 451041192885999569, guid: 66d4fa73a35433a469c29e55cad0690b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451041192885999569, guid: 66d4fa73a35433a469c29e55cad0690b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451041192885999569, guid: 66d4fa73a35433a469c29e55cad0690b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451041192885999569, guid: 66d4fa73a35433a469c29e55cad0690b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451041192885999569, guid: 66d4fa73a35433a469c29e55cad0690b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451041192885999569, guid: 66d4fa73a35433a469c29e55cad0690b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763613827040140527, guid: 66d4fa73a35433a469c29e55cad0690b, type: 3}
+      propertyPath: m_Name
+      value: TutorialExitBeacon
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2879251510553275120, guid: 66d4fa73a35433a469c29e55cad0690b, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7763613827040140527, guid: 66d4fa73a35433a469c29e55cad0690b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4145374064008686446}
+  m_SourcePrefab: {fileID: 100100000, guid: 66d4fa73a35433a469c29e55cad0690b, type: 3}
+--- !u!1 &1261829998179705400 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7763613827040140527, guid: 66d4fa73a35433a469c29e55cad0690b, type: 3}
+  m_PrefabInstance: {fileID: 8808774887140703959}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4145374064008686446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261829998179705400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c760acce1e94d45a60baf07a8ce696, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PressureExpress.Tutorial.TutorialExitBeacon
+  victoryFeedback: {fileID: 0}
+  celebrationEffects: {fileID: 0}
+  exitDelay: 3
+  fallbackMenuScene: MainMenu

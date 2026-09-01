@@ -1,0 +1,945 @@
+; FBX 7.3.0 project file
+; Created by the Blockbench FBX Exporter
+; ----------------------------------------------------
+; 
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 7300
+	EncryptionType: 0
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2026
+		Month: 8
+		Day: 30
+		Hour: 22
+		Minute: 9
+		Second: 25
+		Millisecond: 90
+	}
+	Creator: "Blockbench 5.1.6"
+	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+		Type: "UserData"
+		Version: 100
+		MetaData:  {
+			Version: 100
+			Title: ""
+			Subject: ""
+			Author: ""
+			Keywords: ""
+			Revision: ""
+			Comment: ""
+		}
+		Properties70:  {
+			P: "DocumentUrl", "KString", "Url", "", "C:\Users\Blockbench\foobar.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "C:\Users\Blockbench\foobar.fbx"
+			P: "Original", "Compound", "", ""
+			P: "Original|ApplicationVendor", "KString", "", "", "Blockbench"
+			P: "Original|ApplicationName", "KString", "", "", "Blockbench FBX Exporter"
+			P: "Original|ApplicationVersion", "KString", "", "", "5.1.6"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "01/01/1970 00:00:00.000"
+			P: "Original|FileName", "KString", "", "", "/foobar.fbx"
+			P: "LastSaved", "Compound", "", ""
+			P: "LastSaved|ApplicationVendor", "KString", "", "", "Blockbench"
+			P: "LastSaved|ApplicationName", "KString", "", "", "Blockbench FBX Exporter"
+			P: "LastSaved|ApplicationVersion", "KString", "", "", "5.1.6"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "01/01/1970 00:00:00.000"
+			P: "Original|ApplicationNativeFile", "KString", "", "", ""
+		}
+	}
+}
+FileId: "iVFoobar"
+CreationTime: "2026-08-30 15:09:25:090"
+Creator: "Made with Blockbench"
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",1
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",2
+		P: "FrontAxisSign", "int", "Integer", "",1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",-1
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",1
+		P: "OriginalUnitScaleFactor", "double", "Number", "",1
+		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
+		P: "TimeMode", "enum", "", "",0
+		P: "TimeSpanStart", "KTime", "Time", "",0
+		P: "TimeSpanStop", "KTime", "Time", "",46186158000
+		P: "CustomFrameRate", "double", "Number", "",24
+	}
+}
+
+; Documents Description
+;------------------------------------------------------------------
+
+Documents:  {
+	Count: 1
+	Document: 1875741638 {
+		Scene: "Scene"
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", ""
+		}
+		RootNode: 0
+	}
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References: 
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 45
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "Model" {
+		Count: 3
+		PropertyTemplate: "FbxNode" {
+			Properties70:  {
+				P: "QuaternionInterpolate", "enum", "", "",0
+				P: "RotationOffset", "Vector3D", "Vector", "",0,0,0
+				P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingOffset", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationActive", "bool", "", "",0
+				P: "TranslationMin", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMax", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMinX", "bool", "", "",0
+				P: "TranslationMinY", "bool", "", "",0
+				P: "TranslationMinZ", "bool", "", "",0
+				P: "TranslationMaxX", "bool", "", "",0
+				P: "TranslationMaxY", "bool", "", "",0
+				P: "TranslationMaxZ", "bool", "", "",0
+				P: "RotationOrder", "enum", "", "",5
+				P: "RotationSpaceForLimitOnly", "bool", "", "",0
+				P: "RotationStiffnessX", "double", "Number", "",0
+				P: "RotationStiffnessY", "double", "Number", "",0
+				P: "RotationStiffnessZ", "double", "Number", "",0
+				P: "AxisLen", "double", "Number", "",10
+				P: "PreRotation", "Vector3D", "Vector", "",0,0,0
+				P: "PostRotation", "Vector3D", "Vector", "",0,0,0
+				P: "RotationActive", "bool", "", "",0
+				P: "RotationMin", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMax", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMinX", "bool", "", "",0
+				P: "RotationMinY", "bool", "", "",0
+				P: "RotationMinZ", "bool", "", "",0
+				P: "RotationMaxX", "bool", "", "",0
+				P: "RotationMaxY", "bool", "", "",0
+				P: "RotationMaxZ", "bool", "", "",0
+				P: "InheritType", "enum", "", "",0
+				P: "ScalingActive", "bool", "", "",0
+				P: "ScalingMin", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingMax", "Vector3D", "Vector", "",1,1,1
+				P: "ScalingMinX", "bool", "", "",0
+				P: "ScalingMinY", "bool", "", "",0
+				P: "ScalingMinZ", "bool", "", "",0
+				P: "ScalingMaxX", "bool", "", "",0
+				P: "ScalingMaxY", "bool", "", "",0
+				P: "ScalingMaxZ", "bool", "", "",0
+				P: "GeometricTranslation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricRotation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricScaling", "Vector3D", "Vector", "",1,1,1
+				P: "MinDampRangeX", "double", "Number", "",0
+				P: "MinDampRangeY", "double", "Number", "",0
+				P: "MinDampRangeZ", "double", "Number", "",0
+				P: "MaxDampRangeX", "double", "Number", "",0
+				P: "MaxDampRangeY", "double", "Number", "",0
+				P: "MaxDampRangeZ", "double", "Number", "",0
+				P: "MinDampStrengthX", "double", "Number", "",0
+				P: "MinDampStrengthY", "double", "Number", "",0
+				P: "MinDampStrengthZ", "double", "Number", "",0
+				P: "MaxDampStrengthX", "double", "Number", "",0
+				P: "MaxDampStrengthY", "double", "Number", "",0
+				P: "MaxDampStrengthZ", "double", "Number", "",0
+				P: "PreferedAngleX", "double", "Number", "",0
+				P: "PreferedAngleY", "double", "Number", "",0
+				P: "PreferedAngleZ", "double", "Number", "",0
+				P: "LookAtProperty", "object", "", ""
+				P: "UpVectorProperty", "object", "", ""
+				P: "Show", "bool", "", "",1
+				P: "NegativePercentShapeSupport", "bool", "", "",1
+				P: "DefaultAttributeIndex", "int", "Integer", "",-1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+				P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+				P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+				P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+				P: "Visibility", "Visibility", "", "A",1
+				P: "Visibility Inheritance", "Visibility Inheritance", "", "",1
+			}
+		}
+	}
+	ObjectType: "Geometry" {
+		Count: 2
+		PropertyTemplate: "FbxMesh" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BBoxMin", "Vector3D", "Vector", "",0,0,0
+				P: "BBoxMax", "Vector3D", "Vector", "",0,0,0
+				P: "Primary Visibility", "bool", "", "",1
+				P: "Casts Shadows", "bool", "", "",1
+				P: "Receive Shadows", "bool", "", "",1
+			}
+		}
+	}
+	ObjectType: "Material" {
+		Count: 13
+		PropertyTemplate: "FbxSurfaceLambert" {
+			Properties70:  {
+				P: "ShadingModel", "KString", "", "", "Lambert"
+				P: "MultiLayer", "bool", "", "",0
+				P: "EmissiveColor", "Color", "", "A",0,0,0
+				P: "EmissiveFactor", "Number", "", "A",1
+				P: "AmbientColor", "Color", "", "A",0.2,0.2,0.2
+				P: "AmbientFactor", "Number", "", "A",1
+				P: "DiffuseColor", "Color", "", "A",0.8,0.8,0.8
+				P: "DiffuseFactor", "Number", "", "A",1
+				P: "Bump", "Vector3D", "Vector", "",0,0,0
+				P: "NormalMap", "Vector3D", "Vector", "",0,0,0
+				P: "BumpFactor", "double", "Number", "",1
+				P: "TransparentColor", "Color", "", "A",0,0,0
+				P: "TransparencyFactor", "Number", "", "A",0
+				P: "DisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "DisplacementFactor", "double", "Number", "",1
+				P: "VectorDisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "VectorDisplacementFactor", "double", "Number", "",1
+			}
+		}
+	}
+	ObjectType: "Texture" {
+		Count: 13
+		PropertyTemplate: "FbxFileTexture" {
+			Properties70:  {
+				P: "TextureTypeUse", "enum", "", "",0
+				P: "Texture alpha", "Number", "", "A",1
+				P: "CurrentMappingType", "enum", "", "",0
+				P: "WrapModeU", "enum", "", "",0
+				P: "WrapModeV", "enum", "", "",0
+				P: "UVSwap", "bool", "", "",0
+				P: "PremultiplyAlpha", "bool", "", "",1
+				P: "Translation", "Vector", "", "A",0,0,0
+				P: "Rotation", "Vector", "", "A",0,0,0
+				P: "Scaling", "Vector", "", "A",1,1,1
+				P: "TextureRotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TextureScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "CurrentTextureBlendMode", "enum", "", "",1
+				P: "UVSet", "KString", "", "", "default"
+				P: "UseMaterial", "bool", "", "",0
+				P: "UseMipMap", "bool", "", "",0
+			}
+		}
+	}
+	ObjectType: "Video" {
+		Count: 13
+		PropertyTemplate: "FbxVideo" {
+			Properties70:  {
+				P: "ImageSequence", "bool", "", "",0
+				P: "ImageSequenceOffset", "int", "Integer", "",0
+				P: "FrameRate", "double", "Number", "",0
+				P: "LastFrame", "int", "Integer", "",0
+				P: "Width", "int", "Integer", "",0
+				P: "Height", "int", "Integer", "",0
+				P: "Path", "KString", "XRefUrl", "", ""
+				P: "StartFrame", "int", "Integer", "",0
+				P: "StopFrame", "int", "Integer", "",0
+				P: "PlaySpeed", "double", "Number", "",0
+				P: "Offset", "KTime", "Time", "",0
+				P: "InterlaceMode", "enum", "", "",0
+				P: "FreeRunning", "bool", "", "",0
+				P: "Loop", "bool", "", "",0
+				P: "AccessMode", "enum", "", "",0
+			}
+		}
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	Model: 71217302, "Model::Alert Lights", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",13.390508333333145,15.206687499999996,1.4556500000000023
+			P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "RotationOrder", "enum", "", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 70428725, "Model::Long_Alert_Light_Frame", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",2.47990833333335,0.000012499999998971667,-1.6132928326584306e-14
+			P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,-180,0
+			P: "RotationOrder", "enum", "", "",5
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Geometry: 72342363, "Geometry::Long_Alert_Light_Frame", "Mesh" {
+		Vertices: *36 {
+			a: 1.2280666666666689,-10.125300000000003,-60.55955000000001,1.2280666666666689,10.125300000000003,-60.55955000000001,-2.456133333333335,-13.556199999999995,-64.15925000000001,-2.456133333333335,13.556199999999995,-64.15925000000001,1.2280666666666689,13.556199999999995,-64.15925000000001,1.2280666666666689,-13.556199999999995,-64.15925000000001,1.2280666666666689,10.125300000000003,60.559549999999994,1.2280666666666689,-13.556199999999995,64.15924999999999,1.2280666666666689,13.556199999999995,64.15924999999999,-2.456133333333335,13.556199999999995,64.15924999999999,-2.456133333333335,-13.556199999999995,64.15924999999999,1.2280666666666689,-10.125300000000003,60.559549999999994
+		}
+		PolygonVertexIndex: *32 {
+			a: 2,3,4,-6,7,8,9,-11,2,5,7,-11,4,3,9,-9,1,0,5,-5,0,11,7,-6,6,1,4,-9,11,6,8,-8
+		}
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygon"
+			ReferenceInformationType: "Direct"
+			Normals: *24 {
+				a: 0,0,-1,0,0,1,0,-1,0,0,1,0,1,0,0,1,0,0,1,0,0,1,0,0
+			}
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			UV: *64 {
+				a: 0.15625,0.6875,0.15625,0.8125,0.125,0.8125,0.125,0.6875,0.21875,0.6875,0.21875,0.8125,0.1875,0.8125,0.1875,0.6875,0,0.15625,0.03125,0.15625,0.03125,0.8125,0,0.8125,0.09375,0.8125,0.0625,0.8125,0.0625,0.15625,0.09375,0.15625,0.6309218750000001,0.98284375,0.6309218750000001,0.88159375,0.6489218750000001,0.8644375,0.6489218750000001,1,0.6309218750000001,0.88159375,0.025328125000000035,0.88159375,0.00732812500000013,0.8644375,0.6489218750000001,0.8644375,0.025328125000000035,0.98284375,0.6309218750000001,0.98284375,0.6489218750000001,1,0.00732812500000013,1,0.025328124999999868,0.88159375,0.025328125000000035,0.98284375,0.007328125000000074,1,0.007328124999999908,0.8644375
+			}
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			}
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Model: 78979067, "Model::Long_Alert_Light", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-2.4799083333333525,-0.000012499999998971667,-1.3877787807814457e-15
+			P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,-180,0
+			P: "RotationOrder", "enum", "", "",5
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Geometry: 76787435, "Geometry::Long_Alert_Light", "Mesh" {
+		Vertices: *24 {
+			a: -3.7317500000000337,-10.125275000000006,-60.559549999999994,-3.7317500000000337,10.125325000000002,-60.559549999999994,3.7317500000000337,7.945624999999995,-50.54705000000001,3.7317500000000337,-7.945674999999991,-50.54705000000001,-3.7317500000000337,10.125325000000002,60.559549999999994,3.7317500000000337,7.945624999999995,50.54704999999999,-3.7317500000000337,-10.125275000000006,60.559549999999994,3.7317500000000337,-7.945674999999991,50.54704999999999
+		}
+		PolygonVertexIndex: *20 {
+			a: 0,1,2,-4,1,4,5,-3,3,2,5,-8,4,6,7,-6,6,0,3,-8
+		}
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygon"
+			ReferenceInformationType: "Direct"
+			Normals: *15 {
+				a: 0.8017598164365312,0,-0.5976463810211352,0.2803372980516754,0.9599015570990007,0,1,0,0,0.8017598164365317,0,0.5976463810211343,0.28032544746366367,-0.9599050179597441,0
+			}
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			UV: *40 {
+				a: 0.0625,0.6487468750000001,0.0625,0.75,0,0.7391,0,0.65964375,0.6152968750000001,0.8125,0.009703124999999979,0.8125,0.05976562499999999,0.78125,0.565234375,0.78125,0.5,0.90625,0.5,1,0,1,0,0.90625,0.09375,0.75,0.09375,0.6487468750000001,0.15625,0.65964375,0.15625,0.7391,0.009703124999999979,0.84375,0.6152968750000001,0.84375,0.565234375,0.875,0.05976562499999999,0.875
+			}
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			}
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Material: 76587365, "Material::T_Pipe.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 70892304, "Texture::T_Pipe.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::T_Pipe.png"
+		Media: "Video::T_Pipe.png"
+		FileName: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_Pipe.png"
+		RelativeFilename: "T_Pipe.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 76682016, "Video::T_Pipe.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_Pipe.png"
+		}
+		UseMipMap: 0
+		Filename: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_Pipe.png"
+		RelativeFilename: "T_Pipe.png"
+	}
+	Material: 71075087, "Material::T_Door.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 71221645, "Texture::T_Door.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::T_Door.png"
+		Media: "Video::T_Door.png"
+		FileName: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_Door.png"
+		RelativeFilename: "T_Door.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 79925439, "Video::T_Door.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_Door.png"
+		}
+		UseMipMap: 0
+		Filename: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_Door.png"
+		RelativeFilename: "T_Door.png"
+	}
+	Material: 70535479, "Material::T_DoorGlass.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 74344157, "Texture::T_DoorGlass.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::T_DoorGlass.png"
+		Media: "Video::T_DoorGlass.png"
+		FileName: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_DoorGlass.png"
+		RelativeFilename: "T_DoorGlass.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 79245572, "Video::T_DoorGlass.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_DoorGlass.png"
+		}
+		UseMipMap: 0
+		Filename: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_DoorGlass.png"
+		RelativeFilename: "T_DoorGlass.png"
+	}
+	Material: 78348776, "Material::T_WaterTank.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 70296695, "Texture::T_WaterTank.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::T_WaterTank.png"
+		Media: "Video::T_WaterTank.png"
+		FileName: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_WaterTank.png"
+		RelativeFilename: "T_WaterTank.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 78140570, "Video::T_WaterTank.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_WaterTank.png"
+		}
+		UseMipMap: 0
+		Filename: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_WaterTank.png"
+		RelativeFilename: "T_WaterTank.png"
+	}
+	Material: 79096417, "Material::T_WaterTankLight.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 73675286, "Texture::T_WaterTankLight.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::T_WaterTankLight.png"
+		Media: "Video::T_WaterTankLight.png"
+		FileName: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_WaterTankLight.png"
+		RelativeFilename: "T_WaterTankLight.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 71023579, "Video::T_WaterTankLight.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_WaterTankLight.png"
+		}
+		UseMipMap: 0
+		Filename: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_WaterTankLight.png"
+		RelativeFilename: "T_WaterTankLight.png"
+	}
+	Material: 77544562, "Material::T_OxygenTank.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 74660688, "Texture::T_OxygenTank.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::T_OxygenTank.png"
+		Media: "Video::T_OxygenTank.png"
+		FileName: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_OxygenTank.png"
+		RelativeFilename: "T_OxygenTank.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 72223596, "Video::T_OxygenTank.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_OxygenTank.png"
+		}
+		UseMipMap: 0
+		Filename: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_OxygenTank.png"
+		RelativeFilename: "T_OxygenTank.png"
+	}
+	Material: 76919886, "Material::T_HologramTable.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 70696584, "Texture::T_HologramTable.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::T_HologramTable.png"
+		Media: "Video::T_HologramTable.png"
+		FileName: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_HologramTable.png"
+		RelativeFilename: "T_HologramTable.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 78722598, "Video::T_HologramTable.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_HologramTable.png"
+		}
+		UseMipMap: 0
+		Filename: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_HologramTable.png"
+		RelativeFilename: "T_HologramTable.png"
+	}
+	Material: 76293533, "Material::T_WaterInTank.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 74648578, "Texture::T_WaterInTank.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::T_WaterInTank.png"
+		Media: "Video::T_WaterInTank.png"
+		FileName: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_WaterInTank.png"
+		RelativeFilename: "T_WaterInTank.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 71702179, "Video::T_WaterInTank.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_WaterInTank.png"
+		}
+		UseMipMap: 0
+		Filename: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_WaterInTank.png"
+		RelativeFilename: "T_WaterInTank.png"
+	}
+	Material: 75932650, "Material::T_Locker.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 70794719, "Texture::T_Locker.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::T_Locker.png"
+		Media: "Video::T_Locker.png"
+		FileName: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_Locker.png"
+		RelativeFilename: "T_Locker.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 78243691, "Video::T_Locker.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_Locker.png"
+		}
+		UseMipMap: 0
+		Filename: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_Locker.png"
+		RelativeFilename: "T_Locker.png"
+	}
+	Material: 71527586, "Material::T_Shelf1.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 78551169, "Texture::T_Shelf1.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::T_Shelf1.png"
+		Media: "Video::T_Shelf1.png"
+		FileName: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_Shelf1.png"
+		RelativeFilename: "T_Shelf1.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 78413526, "Video::T_Shelf1.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_Shelf1.png"
+		}
+		UseMipMap: 0
+		Filename: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_Shelf1.png"
+		RelativeFilename: "T_Shelf1.png"
+	}
+	Material: 70971468, "Material::T_Shelf2.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 79597106, "Texture::T_Shelf2.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::T_Shelf2.png"
+		Media: "Video::T_Shelf2.png"
+		FileName: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_Shelf2.png"
+		RelativeFilename: "T_Shelf2.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 78753220, "Video::T_Shelf2.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_Shelf2.png"
+		}
+		UseMipMap: 0
+		Filename: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_Shelf2.png"
+		RelativeFilename: "T_Shelf2.png"
+	}
+	Material: 74843659, "Material::T_LongAlertLightFrame.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 72607416, "Texture::T_LongAlertLightFrame.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::T_LongAlertLightFrame.png"
+		Media: "Video::T_LongAlertLightFrame.png"
+		FileName: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_LongAlertLightFrame.png"
+		RelativeFilename: "T_LongAlertLightFrame.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 74995768, "Video::T_LongAlertLightFrame.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_LongAlertLightFrame.png"
+		}
+		UseMipMap: 0
+		Filename: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_LongAlertLightFrame.png"
+		RelativeFilename: "T_LongAlertLightFrame.png"
+	}
+	Material: 72697527, "Material::T_LongAlertLight.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 70865280, "Texture::T_LongAlertLight.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::T_LongAlertLight.png"
+		Media: "Video::T_LongAlertLight.png"
+		FileName: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_LongAlertLight.png"
+		RelativeFilename: "T_LongAlertLight.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 76521054, "Video::T_LongAlertLight.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_LongAlertLight.png"
+		}
+		UseMipMap: 0
+		Filename: "E:\New folder ก่อน กรกฎาคม69\Cake's stuff\BlockBench Models\BlockBench Textures\T_LongAlertLight.png"
+		RelativeFilename: "T_LongAlertLight.png"
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+
+	;Model::Alert Lights, Model::RootNode
+	C: "OO",71217302,0
+
+	;Model::Long_Alert_Light_Frame, Model::Alert Lights
+	C: "OO",70428725,71217302
+
+	;Geometry::Long_Alert_Light_Frame, Model::Long_Alert_Light_Frame
+	C: "OO",72342363,70428725
+
+	;Material::T_LongAlertLightFrame.png, Model::Long_Alert_Light_Frame
+	C: "OO",74843659,70428725
+
+	;Model::Long_Alert_Light, Model::Alert Lights
+	C: "OO",78979067,71217302
+
+	;Geometry::Long_Alert_Light, Model::Long_Alert_Light
+	C: "OO",76787435,78979067
+
+	;Material::T_LongAlertLight.png, Model::Long_Alert_Light
+	C: "OO",72697527,78979067
+
+	;Texture::T_Pipe.png, Material::T_Pipe.png
+	C: "OP",70892304,76587365, "DiffuseColor"
+
+	;Video::T_Pipe.png, Texture::T_Pipe.png
+	C: "OO",76682016,70892304
+
+	;Texture::T_Door.png, Material::T_Door.png
+	C: "OP",71221645,71075087, "DiffuseColor"
+
+	;Video::T_Door.png, Texture::T_Door.png
+	C: "OO",79925439,71221645
+
+	;Texture::T_DoorGlass.png, Material::T_DoorGlass.png
+	C: "OP",74344157,70535479, "DiffuseColor"
+
+	;Video::T_DoorGlass.png, Texture::T_DoorGlass.png
+	C: "OO",79245572,74344157
+
+	;Texture::T_WaterTank.png, Material::T_WaterTank.png
+	C: "OP",70296695,78348776, "DiffuseColor"
+
+	;Video::T_WaterTank.png, Texture::T_WaterTank.png
+	C: "OO",78140570,70296695
+
+	;Texture::T_WaterTankLight.png, Material::T_WaterTankLight.png
+	C: "OP",73675286,79096417, "DiffuseColor"
+
+	;Video::T_WaterTankLight.png, Texture::T_WaterTankLight.png
+	C: "OO",71023579,73675286
+
+	;Texture::T_OxygenTank.png, Material::T_OxygenTank.png
+	C: "OP",74660688,77544562, "DiffuseColor"
+
+	;Video::T_OxygenTank.png, Texture::T_OxygenTank.png
+	C: "OO",72223596,74660688
+
+	;Texture::T_HologramTable.png, Material::T_HologramTable.png
+	C: "OP",70696584,76919886, "DiffuseColor"
+
+	;Video::T_HologramTable.png, Texture::T_HologramTable.png
+	C: "OO",78722598,70696584
+
+	;Texture::T_WaterInTank.png, Material::T_WaterInTank.png
+	C: "OP",74648578,76293533, "DiffuseColor"
+
+	;Video::T_WaterInTank.png, Texture::T_WaterInTank.png
+	C: "OO",71702179,74648578
+
+	;Texture::T_Locker.png, Material::T_Locker.png
+	C: "OP",70794719,75932650, "DiffuseColor"
+
+	;Video::T_Locker.png, Texture::T_Locker.png
+	C: "OO",78243691,70794719
+
+	;Texture::T_Shelf1.png, Material::T_Shelf1.png
+	C: "OP",78551169,71527586, "DiffuseColor"
+
+	;Video::T_Shelf1.png, Texture::T_Shelf1.png
+	C: "OO",78413526,78551169
+
+	;Texture::T_Shelf2.png, Material::T_Shelf2.png
+	C: "OP",79597106,70971468, "DiffuseColor"
+
+	;Video::T_Shelf2.png, Texture::T_Shelf2.png
+	C: "OO",78753220,79597106
+
+	;Texture::T_LongAlertLightFrame.png, Material::T_LongAlertLightFrame.png
+	C: "OP",72607416,74843659, "DiffuseColor"
+
+	;Video::T_LongAlertLightFrame.png, Texture::T_LongAlertLightFrame.png
+	C: "OO",74995768,72607416
+
+	;Texture::T_LongAlertLight.png, Material::T_LongAlertLight.png
+	C: "OP",70865280,72697527, "DiffuseColor"
+
+	;Video::T_LongAlertLight.png, Texture::T_LongAlertLight.png
+	C: "OO",76521054,70865280
+}
+
+; Takes section
+;------------------------------------------------------------------
+
+Takes:  {
+	Current: ""
+}

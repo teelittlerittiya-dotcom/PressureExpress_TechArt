@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dfef5790ec263041a5643cbbe39148e, type: 3}
+  m_Name: Cargo_Nuke
+  m_EditorClassIdentifier: 
+  cargoName: Nuke
+  cargoDescription: 
+  mass: 20
+  durability: 100
+  maxDurability: 100
+  minTemp: -100
+  currentTemp: 0
+  maxTemp: 100
+  minPressure: 0
+  currentPressure: 0
+  maxPressure: 0
+  currentFreshNess: 0
+  maxFreshNess: 0
+  freshMultiplier: 0
+  currentWetNess: 0
+  maxWetNess: 0
+  price: 0
+  isBeingHeld: 0
+  spriteDefault: {fileID: 21300000, guid: ce2b84c2a0c8c794fa83da5d63c92ae4, type: 3}
+  spritesTemp:
+  - {fileID: 1472566600628824460, guid: f874dbe3bc6951e47a6630c4a65a0688, type: 3}
+  - {fileID: -3848387071035131418, guid: f874dbe3bc6951e47a6630c4a65a0688, type: 3}
+  - {fileID: 7681184147449821412, guid: f874dbe3bc6951e47a6630c4a65a0688, type: 3}
+  - {fileID: 1252113103095842683, guid: f874dbe3bc6951e47a6630c4a65a0688, type: 3}
+  spritesImpact:
+  - {fileID: 7740262718509824735, guid: 9eb7edd0c6f4ea748bbf89826a045cf3, type: 3}
+  - {fileID: -720752426003959617, guid: 86b8f3af953ecc1448b1bd92978da60d, type: 3}
+  - {fileID: -2985439499800933007, guid: 983e3f8c501933b41ba41174488f598d, type: 3}
+  - {fileID: 4949742841015478168, guid: a054982b3aae74c4ea3da6a060976c19, type: 3}
+  spritesRotten:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  spritesMoisture:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  spritesPressure:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

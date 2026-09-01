@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dfef5790ec263041a5643cbbe39148e, type: 3}
+  m_Name: Cargo_Egg
+  m_EditorClassIdentifier: 
+  cargoName: Eggs
+  cargoDescription: Egg is Egg!
+  mass: 1
+  durability: 100
+  maxDurability: 100
+  minTemp: -100
+  currentTemp: 0
+  maxTemp: 100
+  minPressure: 0
+  currentPressure: 50
+  maxPressure: 100
+  currentFreshNess: 100
+  maxFreshNess: 100
+  freshMultiplier: 75
+  currentWetNess: 50
+  maxWetNess: 25
+  price: 250
+  isBeingHeld: 0
+  spriteDefault: {fileID: 3931983199761314821, guid: b7b0a42766ab33c47aab893ba5907e80, type: 3}
+  spritesTemp:
+  - {fileID: -1159926339, guid: 19887740b1d528240b99f3189f4ac15a, type: 3}
+  - {fileID: -564669270, guid: fb22a74d0bad6134e9aec2b2f977a225, type: 3}
+  - {fileID: -1000235009, guid: 00d6b16882da8854897e5ab3c78f0cb9, type: 3}
+  - {fileID: 709744707, guid: 3b05eb0c8ca794b4c892ba8dee94b673, type: 3}
+  spritesImpact:
+  - {fileID: -3974309660272290663, guid: 27b423c8983932449a2c8f6c9c7abde3, type: 3}
+  - {fileID: 3824989251077651909, guid: dba9cf93afff5404185cdec5fb56ae1a, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  spritesRotten:
+  - {fileID: -8509562343617563067, guid: 1176da358d9d2bd43a7839f537d259f3, type: 3}
+  - {fileID: 3269850759676197942, guid: b7e9d8dcbf6f41c46b50b26e5183f27a, type: 3}
+  - {fileID: 4548257548115072596, guid: e5cf19728c524964e87342d9fc923ffc, type: 3}
+  - {fileID: 0}
+  spritesMoisture:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  spritesPressure:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

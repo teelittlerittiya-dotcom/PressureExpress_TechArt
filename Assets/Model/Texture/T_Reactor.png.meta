@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: d49d71b06caa18144b43ad694402659b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4429060737820776257
+    second: T_Reactor_0
+  - first:
+      213: 8075167001983234485
+    second: T_Reactor_1
+  - first:
+      213: -2269863807709361988
+    second: T_Reactor_2
+  - first:
+      213: -1075971273691272860
+    second: T_Reactor_3
+  - first:
+      213: -1220749250507315921
+    second: T_Reactor_4
+  - first:
+      213: -7028678163831720250
+    second: T_Reactor_5
+  - first:
+      213: -1613695839738963060
+    second: T_Reactor_6
+  - first:
+      213: -2705668641603544775
+    second: T_Reactor_7
+  - first:
+      213: 785975542608303752
+    second: T_Reactor_8
+  - first:
+      213: 2178551431126049048
+    second: T_Reactor_9
+  - first:
+      213: -5160887314686111155
+    second: T_Reactor_10
+  - first:
+      213: 7338458903196155739
+    second: T_Reactor_11
+  - first:
+      213: -8476945094106976856
+    second: T_Reactor_12
+  - first:
+      213: 1525309716944629396
+    second: T_Reactor_13
+  - first:
+      213: 708554151395940607
+    second: T_Reactor_14
+  - first:
+      213: -1494164051892957896
+    second: T_Reactor_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T_Reactor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147df6e564f277d30800000000000000
+      internalID: 4429060737820776257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Reactor_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 229
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1ba2faa91c01070800000000000000
+      internalID: 8075167001983234485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Reactor_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 251
+        width: 31
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8c7f4a4e2df70e0800000000000000
+      internalID: -2269863807709361988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Reactor_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 244
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4696b1bc3d16111f0800000000000000
+      internalID: -1075971273691272860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Reactor_4
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 187
+        width: 83
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25efa346070f0fe0800000000000000
+      internalID: -1220749250507315921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Reactor_5
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 237
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6f344137e157e90800000000000000
+      internalID: -7028678163831720250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Reactor_6
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 230
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b55d8fe200b99e0800000000000000
+      internalID: -1613695839738963060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Reactor_7
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 222
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9399e49a4b8837ad0800000000000000
+      internalID: -2705668641603544775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Reactor_8
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 215
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886105b779858ea00800000000000000
+      internalID: 785975542608303752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Reactor_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 202
+        width: 31
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811ef21fbf4cb3e10800000000000000
+      internalID: 2178551431126049048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Reactor_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 208
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d429052b458d068b0800000000000000
+      internalID: -5160887314686111155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Reactor_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f3fcbdd7177d560800000000000000
+      internalID: 7338458903196155739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Reactor_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 125
+        width: 120
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad63458957db5a80800000000000000
+      internalID: -8476945094106976856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Reactor_13
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 156
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49eafea2b1dfa2510800000000000000
+      internalID: 1525309716944629396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Reactor_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 77
+        width: 93
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff855122f3a45d900800000000000000
+      internalID: 708554151395940607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Reactor_15
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 77
+        width: 111
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d03c216b9a34be0800000000000000
+      internalID: -1494164051892957896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      T_Reactor_0: 4429060737820776257
+      T_Reactor_1: 8075167001983234485
+      T_Reactor_10: -5160887314686111155
+      T_Reactor_11: 7338458903196155739
+      T_Reactor_12: -8476945094106976856
+      T_Reactor_13: 1525309716944629396
+      T_Reactor_14: 708554151395940607
+      T_Reactor_15: -1494164051892957896
+      T_Reactor_2: -2269863807709361988
+      T_Reactor_3: -1075971273691272860
+      T_Reactor_4: -1220749250507315921
+      T_Reactor_5: -7028678163831720250
+      T_Reactor_6: -1613695839738963060
+      T_Reactor_7: -2705668641603544775
+      T_Reactor_8: 785975542608303752
+      T_Reactor_9: 2178551431126049048
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

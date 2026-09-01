@@ -1,0 +1,40 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="PressureExpress.uss" />
+
+    <!-- Cloned into a host container by SettingsView, so the root here is the panel itself
+         rather than a full screen. Used by both the main menu and the in-game session panel. -->
+    <ui:VisualElement name="settings-panel" class="panel enter">
+
+        <ui:VisualElement class="row--between">
+            <ui:Label text="SETTINGS" class="subtitle" style="margin-bottom: 0;" />
+            <ui:Button name="settings-close-button" text="" class="btn btn--close" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="bolts" picking-mode="Ignore" />
+
+        <ui:VisualElement class="panel__inner">
+
+            <ui:Label text="DISPLAY &amp; AUDIO" class="section-label" />
+
+            <ui:Slider name="volume-slider" label="MASTER VOLUME"
+                       low-value="0" high-value="1" value="1" class="setting-row" />
+
+            <ui:Toggle name="fullscreen-toggle" label="FULLSCREEN" class="setting-row" />
+
+            <ui:DropdownField name="resolution-dropdown" label="RESOLUTION" class="setting-row" />
+
+            <ui:VisualElement class="divider" picking-mode="Ignore" />
+
+            <ui:Label text="VOICE" class="section-label" />
+
+            <ui:DropdownField name="input-device-dropdown" label="MICROPHONE" class="setting-row" />
+            <ui:DropdownField name="output-device-dropdown" label="SPEAKERS" class="setting-row" />
+
+            <ui:Label name="voice-status" class="status" />
+
+        </ui:VisualElement>
+
+        <ui:Button name="settings-done-button" text="DONE" class="btn btn--primary" />
+
+    </ui:VisualElement>
+</ui:UXML>

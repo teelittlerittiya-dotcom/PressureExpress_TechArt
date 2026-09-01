@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e57bbc22c5e9c12429bfe1308bdf54c6, type: 3}
+  m_Name: Default Grip Configuration
+  m_EditorClassIdentifier: Assembly-CSharp::GripConfiguration
+  positionGain: 3
+  velocityGain: 20
+  maximumGripForce: 60
+  maximumIntentSpeed: 3
+  freeHandRadius: 1
+  initialGrabRange: 1.6
+  grabContactTolerance: 0.035
+  softReach: 0.75
+  hardReach: 1.75
+  hardReachGraceSeconds: 0.45
+  staleIntentTimeoutSeconds: 0.8
+  grabRetrySeconds: 0.1
+  intentSendRate: 25
+  intentKeepaliveSeconds: 0.2
+  intentChangeThreshold: 0.01
+  intentQuantization: 0.01
+  maximumWorldCoordinate: 1000
+  maximumHolders: 4
+  drawDebugForces: 0

@@ -1,0 +1,487 @@
+/*
+ * Pressure Express — UI Toolkit theme
+ *
+ * Built entirely from the project's own art in Assets/Graphic/UI/Basics. Those sprites are small
+ * (32–128px) bolted-metal pieces, so every panel and button is 9-sliced here rather than stretched;
+ * the greyscale pieces are tinted through -unity-background-image-tint-color so a single sprite
+ * serves the normal, hover, disabled and danger states.
+ *
+ * Element names and the .feel-* classes are stable on purpose: Feel's MMF_UIToolkit* feedbacks
+ * query a UIDocument by element name or USS class, so they can be pointed at anything here without
+ * touching markup.
+ */
+
+/* ------------------------------------------------------------------ tokens */
+
+:root {
+    --ink: rgb(232, 236, 233);
+    --ink-dim: rgb(160, 172, 166);
+    --ink-faint: rgb(112, 124, 118);
+
+    --teal: rgb(74, 108, 92);
+    --teal-deep: rgb(46, 68, 58);
+    --rust: rgb(150, 78, 44);
+    --rust-bright: rgb(196, 108, 58);
+    --metal: rgb(110, 115, 120);
+
+    --amber: rgb(240, 176, 64);
+    --danger: rgb(196, 72, 56);
+    --good: rgb(122, 188, 122);
+
+    --shadow: rgba(0, 0, 0, 0.55);
+}
+
+/* ------------------------------------------------------------------ base */
+
+.screen {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Tiled hull plating behind everything. */
+.backdrop {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/Assets/Graphic/UI/Basics/UI%20Background.png");
+    background-repeat: repeat;
+    background-size: 256px 256px;
+    -unity-background-image-tint-color: rgb(150, 150, 150);
+}
+
+/* Corner rust bleed, purely decorative. */
+.rust-corner {
+    position: absolute;
+    width: 320px;
+    height: 160px;
+    background-image: url("/Assets/Graphic/UI/Basics/Rust.png");
+    -unity-background-scale-mode: scale-and-crop;
+    opacity: 0.55;
+}
+
+.rust-corner--tl { left: 0; top: 0; }
+.rust-corner--tr { right: 0; top: 0; rotate: 180deg; }
+.rust-corner--bl { left: 0; bottom: 0; rotate: 180deg; }
+.rust-corner--br { right: 0; bottom: 0; }
+
+.vignette {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(6, 12, 10, 0.45);
+}
+
+/* ------------------------------------------------------------------ panels */
+
+.panel {
+    background-image: url("/Assets/Graphic/UI/Basics/Frame-BG.png");
+    -unity-slice-left: 18;
+    -unity-slice-top: 18;
+    -unity-slice-right: 18;
+    -unity-slice-bottom: 18;
+    -unity-slice-scale: 2px;
+    padding: 34px 30px;
+    min-width: 520px;
+}
+
+.panel__inner {
+    background-image: url("/Assets/Graphic/UI/Basics/UI-BG.png");
+    -unity-slice-left: 18;
+    -unity-slice-top: 18;
+    -unity-slice-right: 18;
+    -unity-slice-bottom: 18;
+    -unity-slice-scale: 2px;
+    padding: 26px 24px;
+}
+
+.panel--metal {
+    background-image: url("/Assets/Graphic/UI/Basics/UI%20Frame.png");
+    -unity-background-image-tint-color: var(--metal);
+}
+
+/* ------------------------------------------------------------------ type */
+
+.title {
+    -unity-font-definition: url("/Assets/Font-New/Jersey25-Regular.ttf");
+    font-size: 72px;
+    color: var(--ink);
+    -unity-text-align: middle-center;
+    letter-spacing: 6px;
+    margin-bottom: 2px;
+    text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.6);
+}
+
+.subtitle {
+    -unity-font-definition: url("/Assets/Font-New/Jersey25-Regular.ttf");
+    font-size: 20px;
+    color: var(--rust-bright);
+    -unity-text-align: middle-center;
+    letter-spacing: 8px;
+    margin-bottom: 26px;
+}
+
+.section-label {
+    -unity-font-definition: url("/Assets/Font-New/Jersey25-Regular.ttf");
+    font-size: 18px;
+    color: var(--ink-dim);
+    letter-spacing: 3px;
+    margin-bottom: 6px;
+}
+
+.status {
+    -unity-font-definition: url("/Assets/Font-New/Jersey25-Regular.ttf");
+    font-size: 20px;
+    color: var(--ink-dim);
+    -unity-text-align: middle-center;
+    min-height: 28px;
+    margin-top: 14px;
+    white-space: normal;
+}
+
+.status--error { color: var(--danger); }
+.status--good { color: var(--good); }
+.status--busy { color: var(--amber); }
+
+/* ------------------------------------------------------------------ buttons */
+
+.btn {
+    -unity-font-definition: url("/Assets/Font-New/Jersey25-Regular.ttf");
+    font-size: 26px;
+    color: var(--ink);
+    letter-spacing: 3px;
+
+    background-image: url("/Assets/Graphic/UI/Basics/Rectangle%20Button.png");
+    background-color: rgba(0, 0, 0, 0);
+    -unity-slice-left: 10;
+    -unity-slice-top: 8;
+    -unity-slice-right: 10;
+    -unity-slice-bottom: 8;
+    -unity-slice-scale: 2px;
+    -unity-background-image-tint-color: var(--metal);
+
+    border-width: 0;
+    min-height: 62px;
+    padding: 6px 24px;
+    margin: 5px 0;
+
+    transition-property: scale, -unity-background-image-tint-color, color, translate;
+    transition-duration: 0.12s, 0.12s, 0.12s, 0.12s;
+    transition-timing-function: ease-out-cubic;
+}
+
+.btn:hover {
+    -unity-background-image-tint-color: var(--rust);
+    scale: 1.03 1.03;
+}
+
+.btn:active {
+    scale: 0.97 0.97;
+    translate: 0px 2px;
+    -unity-background-image-tint-color: var(--rust-bright);
+}
+
+.btn:focus {
+    color: var(--amber);
+}
+
+.btn:disabled {
+    opacity: 0.4;
+    -unity-background-image-tint-color: var(--teal-deep);
+}
+
+.btn--primary {
+    font-size: 32px;
+    min-height: 76px;
+    -unity-background-image-tint-color: var(--rust);
+}
+
+.btn--primary:hover {
+    -unity-background-image-tint-color: var(--rust-bright);
+}
+
+.btn--ghost {
+    font-size: 22px;
+    min-height: 50px;
+    -unity-background-image-tint-color: var(--teal-deep);
+    color: var(--ink-dim);
+}
+
+.btn--ghost:hover {
+    -unity-background-image-tint-color: var(--teal);
+    color: var(--ink);
+}
+
+.btn--danger:hover {
+    -unity-background-image-tint-color: var(--danger);
+}
+
+/* Square plate for icon-sized actions. */
+.btn--square {
+    background-image: url("/Assets/Graphic/UI/Basics/Square%20Button.png");
+    -unity-slice-left: 8;
+    -unity-slice-top: 8;
+    -unity-slice-right: 8;
+    -unity-slice-bottom: 8;
+    width: 62px;
+    min-width: 62px;
+    padding: 0;
+}
+
+.btn--close {
+    background-image: url("/Assets/Graphic/UI/Basics/X%20Button.png");
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px;
+    padding: 0;
+    margin: 0;
+}
+
+/* ------------------------------------------------------------------ layout */
+
+.row {
+    flex-direction: row;
+    align-items: center;
+}
+
+.row--between {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions {
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.spacer { flex-grow: 1; }
+
+.divider {
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.35);
+    margin: 16px 0;
+}
+
+/* ------------------------------------------------------------------ code field */
+
+.code-field {
+    margin: 0 10px 0 0;
+    flex-grow: 1;
+}
+
+/* UI Toolkit puts the editable surface in a child input element. */
+.code-field > .unity-base-text-field__input {
+    background-image: url("/Assets/Graphic/UI/Basics/BG-Buttom.png");
+    background-color: rgba(0, 0, 0, 0);
+    -unity-slice-left: 14;
+    -unity-slice-top: 14;
+    -unity-slice-right: 14;
+    -unity-slice-bottom: 14;
+    -unity-slice-scale: 2px;
+    -unity-background-image-tint-color: var(--teal-deep);
+    border-width: 0;
+    min-height: 62px;
+    padding: 0 16px;
+
+    -unity-font-definition: url("/Assets/Font-New/Jersey25-Regular.ttf");
+    font-size: 34px;
+    letter-spacing: 10px;
+    color: var(--amber);
+    -unity-text-align: middle-center;
+}
+
+.code-field > .unity-base-text-field__input:focus {
+    -unity-background-image-tint-color: var(--teal);
+}
+
+/* Big read-only display of the room code in the session panel. */
+.code-display {
+    -unity-font-definition: url("/Assets/Font-New/Jersey25-Regular.ttf");
+    font-size: 56px;
+    letter-spacing: 14px;
+    color: var(--amber);
+    -unity-text-align: middle-center;
+
+    background-image: url("/Assets/Graphic/UI/Basics/BG-Buttom.png");
+    -unity-slice-left: 14;
+    -unity-slice-top: 14;
+    -unity-slice-right: 14;
+    -unity-slice-bottom: 14;
+    -unity-slice-scale: 2px;
+    -unity-background-image-tint-color: var(--teal-deep);
+    padding: 12px 20px;
+    margin-bottom: 10px;
+}
+
+/* ------------------------------------------------------------------ banners */
+
+.banner {
+    -unity-font-definition: url("/Assets/Font-New/Jersey25-Regular.ttf");
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: rgb(24, 20, 12);
+    -unity-text-align: middle-center;
+    background-color: var(--amber);
+    padding: 7px 18px;
+    margin-top: 16px;
+}
+
+.banner--danger {
+    background-color: var(--danger);
+    color: var(--ink);
+}
+
+/* Bolt strip used as a decorative rule across panel headers. */
+.bolts {
+    height: 18px;
+    background-image: url("/Assets/Graphic/UI/Basics/Bolt.png");
+    background-repeat: repeat-x;
+    -unity-background-image-tint-color: var(--metal);
+    margin: 10px 0;
+}
+
+/* ------------------------------------------------------------------ settings rows */
+
+.setting-row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 56px;
+    margin-bottom: 6px;
+}
+
+.setting-row > .unity-base-field__label,
+.setting-label {
+    -unity-font-definition: url("/Assets/Font-New/Jersey25-Regular.ttf");
+    font-size: 22px;
+    color: var(--ink-dim);
+    letter-spacing: 2px;
+    min-width: 220px;
+    -unity-text-align: middle-left;
+}
+
+.setting-control {
+    flex-grow: 1;
+    max-width: 340px;
+}
+
+/* .setting-row is applied to the field itself (Slider/Toggle/DropdownField are already flex rows
+   containing a label and an input), so the input has to be told to take the remaining space. */
+.setting-row > .unity-base-field__input {
+    flex-grow: 1;
+    max-width: 380px;
+}
+
+.unity-base-slider__tracker {
+    background-color: var(--teal-deep);
+    border-width: 0;
+    height: 10px;
+}
+
+.unity-base-slider__dragger {
+    background-image: url("/Assets/Graphic/UI/Basics/Square%20Button.png");
+    background-color: rgba(0, 0, 0, 0);
+    -unity-slice-left: 8;
+    -unity-slice-top: 8;
+    -unity-slice-right: 8;
+    -unity-slice-bottom: 8;
+    -unity-background-image-tint-color: var(--rust);
+    border-width: 0;
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+}
+
+.unity-base-dropdown__container-inner,
+.unity-base-popup-field__input {
+    background-image: url("/Assets/Graphic/UI/Basics/Rectangle%20Button.png");
+    background-color: rgba(0, 0, 0, 0);
+    -unity-slice-left: 10;
+    -unity-slice-top: 8;
+    -unity-slice-right: 10;
+    -unity-slice-bottom: 8;
+    -unity-slice-scale: 2px;
+    -unity-background-image-tint-color: var(--metal);
+    border-width: 0;
+    min-height: 46px;
+    -unity-font-definition: url("/Assets/Font-New/Jersey25-Regular.ttf");
+    font-size: 20px;
+    color: var(--ink);
+    padding: 0 12px;
+}
+
+.unity-toggle__checkmark {
+    background-image: url("/Assets/Graphic/UI/Basics/Square%20Button.png");
+    background-color: rgba(0, 0, 0, 0);
+    -unity-slice-left: 8;
+    -unity-slice-top: 8;
+    -unity-slice-right: 8;
+    -unity-slice-bottom: 8;
+    -unity-background-image-tint-color: var(--teal-deep);
+    border-width: 0;
+    width: 38px;
+    height: 38px;
+}
+
+.unity-toggle:checked > .unity-toggle__input > .unity-toggle__checkmark {
+    -unity-background-image-tint-color: var(--good);
+}
+
+/* ------------------------------------------------------------------ overlays */
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(4, 10, 8, 0.72);
+}
+
+/* display:none rather than opacity, so hidden UI cannot eat pointer events. */
+.hidden {
+    display: none;
+}
+
+/*
+ * Entrance state. Views add .is-open one frame after the panel is built, so the transition
+ * actually runs. Feel can drive the same thing with MMF_UIToolkitClass if you want it authored
+ * in an MMF_Player instead.
+ */
+.enter {
+    opacity: 0;
+    translate: 0px 26px;
+    scale: 0.97 0.97;
+    transition-property: opacity, translate, scale;
+    transition-duration: 0.28s, 0.28s, 0.28s;
+    transition-timing-function: ease-out-cubic;
+}
+
+.enter.is-open {
+    opacity: 1;
+    translate: 0px 0px;
+    scale: 1 1;
+}
+
+/* Attention pulse for the status line, toggled from code on failures. */
+.shake {
+    transition-property: translate;
+    transition-duration: 0.06s;
+    translate: 8px 0px;
+}

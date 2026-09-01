@@ -1,0 +1,279 @@
+fileFormatVersion: 2
+guid: 9137840fcea509a4dbf2d0df0770b04d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9065582277763505192
+    second: RottenParticle-Freshness-0_0
+  - first:
+      213: -8382163954822833671
+    second: RottenParticle-Freshness-0_1
+  - first:
+      213: -8754226120160051417
+    second: RottenParticle-Freshness-0_2
+  - first:
+      213: -6229589525588299096
+    second: RottenParticle-Freshness-0_3
+  - first:
+      213: -2626416559357215461
+    second: RottenParticle-Freshness-0_4
+  - first:
+      213: -7445136473585050209
+    second: RottenParticle-Freshness-0_5
+  - first:
+      213: -4259559278819898422
+    second: RottenParticle-Freshness-0_6
+  - first:
+      213: -9153806530008858626
+    second: RottenParticle-Freshness-0_7
+  - first:
+      213: -3818234442587498022
+    second: RottenParticle-Freshness-0_8
+  - first:
+      213: 3972410594917579946
+    second: RottenParticle-Freshness-0_9
+  - first:
+      213: 3112619325782091271
+    second: RottenParticle-Freshness-0_10
+  - first:
+      213: 8148068260125770837
+    second: RottenParticle-Freshness-0_11
+  - first:
+      213: -1912627417947786203
+    second: RottenParticle-Freshness-0_12
+  - first:
+      213: -1215368021439689408
+    second: RottenParticle-Freshness-0_13
+  - first:
+      213: -3633121930536772437
+    second: RottenParticle-Freshness-0_14
+  - first:
+      213: 3197807614760894694
+    second: RottenParticle-Freshness-0_15
+  - first:
+      213: 2068849252625874236
+    second: RottenParticle-Freshness-0_16
+  - first:
+      213: 4672731205668356839
+    second: RottenParticle-Freshness-0_17
+  - first:
+      213: -4452006232643239653
+    second: RottenParticle-Freshness-0_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RottenParticle-Freshness-0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c9b24dc0b6fcd70800000000000000
+      internalID: 9065582277763505192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RottenParticle-Freshness-0_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f993bf2b429cab80800000000000000
+      internalID: -8382163954822833671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RottenParticle-Freshness-0_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ff960c9bdb28680800000000000000
+      internalID: -8754226120160051417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RottenParticle-Freshness-0_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2b0de055d0c89a0800000000000000
+      internalID: -6229589525588299096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b7c921b713b5ee24aa6e77acd93e69dd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RottenParticle-Freshness-0_0: 9065582277763505192
+      RottenParticle-Freshness-0_1: -8382163954822833671
+      RottenParticle-Freshness-0_2: -8754226120160051417
+      RottenParticle-Freshness-0_3: -6229589525588299096
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

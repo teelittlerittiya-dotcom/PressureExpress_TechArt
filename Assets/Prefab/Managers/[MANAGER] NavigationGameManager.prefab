@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7734339009718538704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1188942739679354635}
+  - component: {fileID: 2084409497765784569}
+  - component: {fileID: 8007151646890094928}
+  m_Layer: 0
+  m_Name: '[MANAGER] NavigationGameManager'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1188942739679354635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7734339009718538704}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.96412, y: -1.38456, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2084409497765784569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7734339009718538704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12c9ee0269375bf4584ebf1df0fb5f33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapGen: {fileID: 0}
+  mapNode: {fileID: 0}
+  demoEndUIPanel: {fileID: 0}
+--- !u!114 &8007151646890094928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7734339009718538704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31895d6c832675e49b5944a0207be94b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CanvasManager
+  uiContainer: {fileID: 0}
+  machineUIPrefabs:
+  - uiType: 4
+    uiPrefab: {fileID: 8207868991755640721, guid: 0e8f1847750465e49aa0bc3c85e765b8, type: 3}
+  - uiType: 1
+    uiPrefab: {fileID: 4098267853626568391, guid: 5cada117dbef1b04899a38c9b4fb01f0, type: 3}
+  - uiType: 2
+    uiPrefab: {fileID: 4300234798816263234, guid: 2913dd4822dc32045b9070b51d037296, type: 3}
+  - uiType: 3
+    uiPrefab: {fileID: 5575303410482774152, guid: 41deaf4c444b5294eb60040029e92160, type: 3}
+  - uiType: 5
+    uiPrefab: {fileID: 4203222012422514098, guid: c603f9f5d68ed8e4d8b3f0795dc9d793, type: 3}
+  - uiType: 6
+    uiPrefab: {fileID: 3124120520524220995, guid: 54c896f8c6e8f4848945c8ff694eaf93, type: 3}
+  currentActiveUI: {fileID: 0}
+  manageCursor: 1

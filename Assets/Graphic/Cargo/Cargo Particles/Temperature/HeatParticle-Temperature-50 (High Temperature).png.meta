@@ -1,0 +1,270 @@
+fileFormatVersion: 2
+guid: bd31c24cc8be361429671f943b26bc51
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -58070739532051824
+    second: HeatParticle-Temperature-50 (High Temperature)_0
+  - first:
+      213: 7954889219140552996
+    second: HeatParticle-Temperature-50 (High Temperature)_1
+  - first:
+      213: -341352566657712806
+    second: HeatParticle-Temperature-50 (High Temperature)_2
+  - first:
+      213: 1992109399134930684
+    second: HeatParticle-Temperature-50 (High Temperature)_3
+  - first:
+      213: 7433240361661687116
+    second: HeatParticle-Temperature-50 (High Temperature)_4
+  - first:
+      213: -5944501263573989834
+    second: HeatParticle-Temperature-50 (High Temperature)_5
+  - first:
+      213: 5147804280654141806
+    second: HeatParticle-Temperature-50 (High Temperature)_6
+  - first:
+      213: -1842346676719589888
+    second: HeatParticle-Temperature-50 (High Temperature)_7
+  - first:
+      213: 1833506623689084458
+    second: HeatParticle-Temperature-50 (High Temperature)_8
+  - first:
+      213: -8484350229181721711
+    second: HeatParticle-Temperature-50 (High Temperature)_9
+  - first:
+      213: 8745063447194157516
+    second: HeatParticle-Temperature-50 (High Temperature)_10
+  - first:
+      213: -5944326366400291656
+    second: HeatParticle-Temperature-50 (High Temperature)_11
+  - first:
+      213: 4325647911789057051
+    second: HeatParticle-Temperature-50 (High Temperature)_12
+  - first:
+      213: -7150405681403277718
+    second: HeatParticle-Temperature-50 (High Temperature)_13
+  - first:
+      213: -7578157347731616121
+    second: HeatParticle-Temperature-50 (High Temperature)_14
+  - first:
+      213: -4394980605584966326
+    second: HeatParticle-Temperature-50 (High Temperature)_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HeatParticle-Temperature-50 (High Temperature)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a095658f0b13ff0800000000000000
+      internalID: -58070739532051824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeatParticle-Temperature-50 (High Temperature)_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42905761991756e60800000000000000
+      internalID: 7954889219140552996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeatParticle-Temperature-50 (High Temperature)_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5df23136a5434bf0800000000000000
+      internalID: -341352566657712806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeatParticle-Temperature-50 (High Temperature)_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf68721a1f465ab10800000000000000
+      internalID: 1992109399134930684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bad78d3ed00cfc4469b6fe76941c70ea
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HeatParticle-Temperature-50 (High Temperature)_0: -58070739532051824
+      HeatParticle-Temperature-50 (High Temperature)_1: 7954889219140552996
+      HeatParticle-Temperature-50 (High Temperature)_2: -341352566657712806
+      HeatParticle-Temperature-50 (High Temperature)_3: 1992109399134930684
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

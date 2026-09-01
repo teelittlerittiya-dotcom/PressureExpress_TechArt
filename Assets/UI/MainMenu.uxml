@@ -1,0 +1,51 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="PressureExpress.uss" />
+
+    <ui:VisualElement name="screen" class="screen">
+
+        <!-- Hull plating, rust bleed and a vignette. Purely decorative, picks-none so it can
+             never swallow a click intended for the panel. -->
+        <ui:VisualElement name="backdrop" class="backdrop" picking-mode="Ignore" />
+        <ui:VisualElement class="rust-corner rust-corner--tl" picking-mode="Ignore" />
+        <ui:VisualElement class="rust-corner rust-corner--tr" picking-mode="Ignore" />
+        <ui:VisualElement class="rust-corner rust-corner--bl" picking-mode="Ignore" />
+        <ui:VisualElement class="rust-corner rust-corner--br" picking-mode="Ignore" />
+        <ui:VisualElement name="vignette" class="vignette" picking-mode="Ignore" />
+
+        <ui:VisualElement name="menu-panel" class="panel enter">
+
+            <ui:Label name="title" text="PRESSURE EXPRESS" class="title" />
+            <ui:Label name="subtitle" text="DEEP SALVAGE DIVISION" class="subtitle" />
+
+            <ui:VisualElement class="bolts" picking-mode="Ignore" />
+
+            <ui:VisualElement class="panel__inner">
+                <ui:VisualElement name="actions" class="actions">
+
+                    <ui:Button name="host-button" text="HOST DIVE" class="btn btn--primary" />
+
+                    <ui:Label text="JOIN WITH CODE" class="section-label" />
+                    <ui:VisualElement class="row">
+                        <ui:TextField name="join-code" max-length="6" class="code-field" />
+                        <ui:Button name="join-button" text="JOIN" class="btn" />
+                    </ui:VisualElement>
+
+                    <ui:VisualElement class="divider" picking-mode="Ignore" />
+
+                    <ui:Button name="settings-button" text="SETTINGS" class="btn btn--ghost" />
+                    <ui:Button name="quit-button" text="QUIT" class="btn btn--ghost btn--danger" />
+
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:Label name="status" class="status" />
+            <ui:Label name="local-banner" text="LOCAL MODE — NOT STEAM" class="banner hidden" />
+
+        </ui:VisualElement>
+
+        <!-- SettingsPanel.uxml is cloned in here at runtime so the same settings UI can be
+             reused by the in-game session panel without duplicating markup. -->
+        <ui:VisualElement name="settings-host" class="overlay hidden" />
+
+    </ui:VisualElement>
+</ui:UXML>

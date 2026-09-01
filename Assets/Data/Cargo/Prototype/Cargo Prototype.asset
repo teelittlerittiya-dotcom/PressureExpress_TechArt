@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70b063a222afd354badda126480e98ec, type: 3}
+  m_Name: Cargo Prototype
+  m_EditorClassIdentifier: Assembly-CSharp::CargoItemData
+  definitionId: cargo.prototype.eggs
+  cargoName: Prototype Status Eggs
+  description: Network-ready Cargo prototype exercising Impact, Temperature, Freshness
+    and Pressure.
+  mass: 0.5
+  price: 100
+  cargoScale: 4
+  defaultSprite: {fileID: 3931983199761314821, guid: b7b0a42766ab33c47aab893ba5907e80, type: 3}
+  polishProfile: {fileID: 11400000, guid: 19f3a50e3ff6ed543b09de76284776be, type: 2}
+  autoSizeColliderFromSprite: 1
+  colliderSizeOverride: {x: 1, y: 1}
+  colliderOffset: {x: 0, y: 0}
+  colliderDepth: 0.5
+  proximityPadding: 0.75
+  maxGeneratedColliderTriangles: 64
+  physicsMaterial: {fileID: 13400000, guid: 44a87e4103e107f448dffa1c53b6e17e, type: 2}
+  isDrainOxigen: 0
+  modules:
+  - {fileID: 11400000, guid: 41ca81f2aeffc0447a2a5e61e85f162d, type: 2}
+  - {fileID: 11400000, guid: 552096de10f159b4086fd2674a4767c1, type: 2}
+  - {fileID: 11400000, guid: 233ef6d6bc9ce3f4b9ea2de3f086fe8e, type: 2}
+  - {fileID: 11400000, guid: 1848c2dd4f6971649bc47a5cf257945e, type: 2}

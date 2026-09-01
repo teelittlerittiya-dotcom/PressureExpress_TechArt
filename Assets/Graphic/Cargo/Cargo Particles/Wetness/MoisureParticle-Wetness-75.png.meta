@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: acb4170e224638d48b6c7458c1f70b4a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1847214608141235477
+    second: MoisureParticle-Wetness-75_0
+  - first:
+      213: -9032383312758412969
+    second: MoisureParticle-Wetness-75_1
+  - first:
+      213: -1272197720311782063
+    second: MoisureParticle-Wetness-75_2
+  - first:
+      213: 3918522951741213748
+    second: MoisureParticle-Wetness-75_3
+  - first:
+      213: 2827783128305359918
+    second: MoisureParticle-Wetness-75_4
+  - first:
+      213: 2311619909477550024
+    second: MoisureParticle-Wetness-75_5
+  - first:
+      213: -8072207218407158932
+    second: MoisureParticle-Wetness-75_6
+  - first:
+      213: 6455660603936960541
+    second: MoisureParticle-Wetness-75_7
+  - first:
+      213: -2079600315550991977
+    second: MoisureParticle-Wetness-75_8
+  - first:
+      213: 3525943333438042277
+    second: MoisureParticle-Wetness-75_9
+  - first:
+      213: -1049654854808009447
+    second: MoisureParticle-Wetness-75_10
+  - first:
+      213: -1450581993278506117
+    second: MoisureParticle-Wetness-75_11
+  - first:
+      213: -2622984418864639563
+    second: MoisureParticle-Wetness-75_12
+  - first:
+      213: 1845095631157836567
+    second: MoisureParticle-Wetness-75_13
+  - first:
+      213: 4178476176878457826
+    second: MoisureParticle-Wetness-75_14
+  - first:
+      213: -6680831636791151601
+    second: MoisureParticle-Wetness-75_15
+  - first:
+      213: -1687013657799984626
+    second: MoisureParticle-Wetness-75_16
+  - first:
+      213: 4925922319753495221
+    second: MoisureParticle-Wetness-75_17
+  - first:
+      213: 3822255287123505929
+    second: MoisureParticle-Wetness-75_18
+  - first:
+      213: -3584192854936728710
+    second: MoisureParticle-Wetness-75_19
+  - first:
+      213: -3505051279041075892
+    second: MoisureParticle-Wetness-75_20
+  - first:
+      213: 547058585903903339
+    second: MoisureParticle-Wetness-75_21
+  - first:
+      213: -6395557377114163853
+    second: MoisureParticle-Wetness-75_22
+  - first:
+      213: -9154583492833404361
+    second: MoisureParticle-Wetness-75_23
+  - first:
+      213: 547161320897084121
+    second: MoisureParticle-Wetness-75_24
+  - first:
+      213: -8476317797697470165
+    second: MoisureParticle-Wetness-75_25
+  - first:
+      213: 4059247739268672374
+    second: MoisureParticle-Wetness-75_26
+  - first:
+      213: 3713864117399186734
+    second: MoisureParticle-Wetness-75_27
+  - first:
+      213: 7871171244592753708
+    second: MoisureParticle-Wetness-75_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MoisureParticle-Wetness-75_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515bb2e26ef92a910800000000000000
+      internalID: 1847214608141235477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoisureParticle-Wetness-75_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7596edf8b3786a280800000000000000
+      internalID: -9032383312758412969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoisureParticle-Wetness-75_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15521cce9ee385ee0800000000000000
+      internalID: -1272197720311782063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoisureParticle-Wetness-75_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c00c60dd3616630800000000000000
+      internalID: 3918522951741213748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoisureParticle-Wetness-75_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2cdb70e5cd4e3720800000000000000
+      internalID: 2827783128305359918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoisureParticle-Wetness-75_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c741286f06841020800000000000000
+      internalID: 2311619909477550024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoisureParticle-Wetness-75_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b4f71ad42c9ff80800000000000000
+      internalID: -8072207218407158932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoisureParticle-Wetness-75_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d107520ad1d179950800000000000000
+      internalID: 6455660603936960541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoisureParticle-Wetness-75_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799faccf786c323e0800000000000000
+      internalID: -2079600315550991977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoisureParticle-Wetness-75_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a03bbfc7caaee030800000000000000
+      internalID: 3525943333438042277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoisureParticle-Wetness-75_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915876a8870ee61f0800000000000000
+      internalID: -1049654854808009447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoisureParticle-Wetness-75_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b7e05dc5f7edbe0800000000000000
+      internalID: -1450581993278506117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoisureParticle-Wetness-75_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b150367199499bd0800000000000000
+      internalID: -2622984418864639563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoisureParticle-Wetness-75_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bb9c763b81b9910800000000000000
+      internalID: 1845095631157836567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoisureParticle-Wetness-75_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3d541c1fdecf930800000000000000
+      internalID: 4178476176878457826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoisureParticle-Wetness-75_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f043fdcd50be843a0800000000000000
+      internalID: -6680831636791151601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ce5a0effda3b7e94bb0a3257cc679cd7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MoisureParticle-Wetness-75_0: 1847214608141235477
+      MoisureParticle-Wetness-75_1: -9032383312758412969
+      MoisureParticle-Wetness-75_10: -1049654854808009447
+      MoisureParticle-Wetness-75_11: -1450581993278506117
+      MoisureParticle-Wetness-75_12: -2622984418864639563
+      MoisureParticle-Wetness-75_13: 1845095631157836567
+      MoisureParticle-Wetness-75_14: 4178476176878457826
+      MoisureParticle-Wetness-75_15: -6680831636791151601
+      MoisureParticle-Wetness-75_2: -1272197720311782063
+      MoisureParticle-Wetness-75_3: 3918522951741213748
+      MoisureParticle-Wetness-75_4: 2827783128305359918
+      MoisureParticle-Wetness-75_5: 2311619909477550024
+      MoisureParticle-Wetness-75_6: -8072207218407158932
+      MoisureParticle-Wetness-75_7: 6455660603936960541
+      MoisureParticle-Wetness-75_8: -2079600315550991977
+      MoisureParticle-Wetness-75_9: 3525943333438042277
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

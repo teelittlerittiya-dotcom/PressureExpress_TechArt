@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e21211f6af1a52949bc8f3747354bcbc, type: 3}
+  m_Name: New Rotten Module
+  m_EditorClassIdentifier: 
+  visualStates:
+  - stateName: rotten <25
+    thresholdPercent: 25
+    sprite: {fileID: 0}
+    particlePrefab: {fileID: 8281929238995006770, guid: 7f9262bac36935b4498f3953e6aa02b9, type: 3}
+  - stateName: rotten <50
+    thresholdPercent: 50
+    sprite: {fileID: 0}
+    particlePrefab: {fileID: 7306912912147393653, guid: 4da41b5acd33ce4419182d4a3e7b91ba, type: 3}
+  - stateName: rotten <75
+    thresholdPercent: 75
+    sprite: {fileID: 0}
+    particlePrefab: {fileID: 2077280648507500488, guid: ad9bc280a950d784f84681e45928d4b2, type: 3}
+  - stateName: rotten <100
+    thresholdPercent: 100
+    sprite: {fileID: 0}
+    particlePrefab: {fileID: 0}
+  maxFreshness: 100
+  decayRatePerSecond: 5

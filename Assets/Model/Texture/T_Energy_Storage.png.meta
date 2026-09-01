@@ -1,0 +1,1339 @@
+fileFormatVersion: 2
+guid: d7a1bfafa095f2f44bdae2e5759032ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2333789010292076757
+    second: T_Energy_Storage 1_0
+  - first:
+      213: 5420269676976592478
+    second: T_Energy_Storage 1_1
+  - first:
+      213: -4678818342651322201
+    second: T_Energy_Storage 1_2
+  - first:
+      213: 245665469032862236
+    second: T_Energy_Storage 1_3
+  - first:
+      213: 1678626836616295290
+    second: T_Energy_Storage 1_4
+  - first:
+      213: -5352114004999959432
+    second: T_Energy_Storage 1_5
+  - first:
+      213: 5728960847622305986
+    second: T_Energy_Storage 1_6
+  - first:
+      213: -5231764299241545387
+    second: T_Energy_Storage 1_7
+  - first:
+      213: 7636924877419883529
+    second: T_Energy_Storage 1_8
+  - first:
+      213: 3681011372923577863
+    second: T_Energy_Storage 1_9
+  - first:
+      213: -1203124359956717348
+    second: T_Energy_Storage 1_10
+  - first:
+      213: -4471879015142954359
+    second: T_Energy_Storage 1_11
+  - first:
+      213: 75529901609553753
+    second: T_Energy_Storage 1_12
+  - first:
+      213: 5627347347368196867
+    second: T_Energy_Storage 1_13
+  - first:
+      213: -7321365516801093944
+    second: T_Energy_Storage 1_14
+  - first:
+      213: -2721033203560594414
+    second: T_Energy_Storage 1_15
+  - first:
+      213: -59914426225555963
+    second: T_Energy_Storage 1_16
+  - first:
+      213: 8976483461707354940
+    second: T_Energy_Storage 1_17
+  - first:
+      213: -2825309197875969286
+    second: T_Energy_Storage 1_18
+  - first:
+      213: 5671406167856332756
+    second: T_Energy_Storage 1_19
+  - first:
+      213: 2765060304280938114
+    second: T_Energy_Storage 1_20
+  - first:
+      213: 2996044139701938885
+    second: T_Energy_Storage 1_21
+  - first:
+      213: 6799268969230282
+    second: T_Energy_Storage 1_22
+  - first:
+      213: -3842829667342429131
+    second: T_Energy_Storage 1_23
+  - first:
+      213: -3342976222273064710
+    second: T_Energy_Storage 1_24
+  - first:
+      213: -1565007307667700040
+    second: T_Energy_Storage 1_25
+  - first:
+      213: 6007541984681312398
+    second: T_Energy_Storage 1_26
+  - first:
+      213: -2537323922410171173
+    second: T_Energy_Storage 1_27
+  - first:
+      213: -1264131349586425656
+    second: T_Energy_Storage 1_28
+  - first:
+      213: 8209540932317016465
+    second: T_Energy_Storage 1_29
+  - first:
+      213: 1345159461823202123
+    second: T_Energy_Storage 1_30
+  - first:
+      213: 1789324165581813892
+    second: T_Energy_Storage 1_31
+  - first:
+      213: -3105462926256010582
+    second: T_Energy_Storage 1_32
+  - first:
+      213: -4741505516816827098
+    second: T_Energy_Storage 1_33
+  - first:
+      213: -5404408692648766184
+    second: T_Energy_Storage 1_34
+  - first:
+      213: 4600771218382607048
+    second: T_Energy_Storage 1_35
+  - first:
+      213: -3417840724233318242
+    second: T_Energy_Storage 1_36
+  - first:
+      213: 2758758086990633655
+    second: T_Energy_Storage 1_37
+  - first:
+      213: -4461967204427661230
+    second: T_Energy_Storage 1_38
+  - first:
+      213: -7798228878076208289
+    second: T_Energy_Storage 1_39
+  - first:
+      213: -7371216300889958966
+    second: T_Energy_Storage 1_40
+  - first:
+      213: 8677108109636256330
+    second: T_Energy_Storage 1_41
+  - first:
+      213: -3300109053076603582
+    second: T_Energy_Storage 1_42
+  - first:
+      213: -6079428119492637778
+    second: T_Energy_Storage 1_43
+  - first:
+      213: 503777076529471477
+    second: T_Energy_Storage 1_44
+  - first:
+      213: 5997011093030110833
+    second: T_Energy_Storage 1_45
+  - first:
+      213: 3237386850661832713
+    second: T_Energy_Storage 1_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f84d49247bc9fd0800000000000000
+      internalID: -2333789010292076757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 241
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56d20bad8aa83b40800000000000000
+      internalID: 5420269676976592478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 212
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0afadb18f711fb0800000000000000
+      internalID: -4678818342651322201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 251
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1298474177c86300800000000000000
+      internalID: 245665469032862236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 223
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73b3f2d63eab4710800000000000000
+      internalID: 1678626836616295290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 234
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c859e4ba879b5b0800000000000000
+      internalID: -5352114004999959432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 180
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8f5ae998b518f40800000000000000
+      internalID: 5728960847622305986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 224
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5512323c61a0567b0800000000000000
+      internalID: -5231764299241545387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_8
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 217
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ca4feb6becbf960800000000000000
+      internalID: 7636924877419883529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_9
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 218
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70668414754951330800000000000000
+      internalID: 3681011372923577863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd02920e4c4ad4fe0800000000000000
+      internalID: -1203124359956717348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_11
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 205
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a61ef8ab1b0f1c0800000000000000
+      internalID: -4471879015142954359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 205
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f8b5b9b065c0100800000000000000
+      internalID: 75529901609553753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 184
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b3e93f89a581e40800000000000000
+      internalID: 5627347347368196867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 211
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cec64c4ad8456a90800000000000000
+      internalID: -7321365516801093944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 206
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2144abfc7b2fc3ad0800000000000000
+      internalID: -2721033203560594414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50687e395242b2ff0800000000000000
+      internalID: -59914426225555963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_17
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 198
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c335c332620e29c70800000000000000
+      internalID: 8976483461707354940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_18
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 193
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af285ffe04c7ac8d0800000000000000
+      internalID: -2825309197875969286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_19
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 200
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df390c7cd1e4be40800000000000000
+      internalID: 5671406167856332756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 201
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286e23362b77f5620800000000000000
+      internalID: 2765060304280938114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_21
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 196
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca23567546149920800000000000000
+      internalID: 2996044139701938885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfa4ab26e7281000800000000000000
+      internalID: 6799268969230282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 158
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534d8b917c68baac0800000000000000
+      internalID: -3842829667342429131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_24
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 191
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af036d276dc5b91d0800000000000000
+      internalID: -3342976222273064710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_25
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 186
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6839b352af74ae0800000000000000
+      internalID: -1565007307667700040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_26
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 147
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80cc221b931f5350800000000000000
+      internalID: 6007541984681312398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_27
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 177
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd414acf55d99ccd0800000000000000
+      internalID: -2537323922410171173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_28
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 181
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c847763c37e47ee0800000000000000
+      internalID: -1264131349586425656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_29
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 176
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191f8cf5bf52ee170800000000000000
+      internalID: 8209540932317016465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_30
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 170
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b434a305767faa210800000000000000
+      internalID: 1345159461823202123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_31
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 164
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488b68d29d4f4d810800000000000000
+      internalID: 1789324165581813892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_32
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 171
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa8d590ced27e4d0800000000000000
+      internalID: -3105462926256010582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_33
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 166
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62df391aad9c23eb0800000000000000
+      internalID: -4741505516816827098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_34
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 127
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81513a58deeaff4b0800000000000000
+      internalID: -5404408692648766184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_35
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 125
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c259841c0939df30800000000000000
+      internalID: 4600771218382607048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_36
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 130
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90953548f36190d0800000000000000
+      internalID: -3417840724233318242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_37
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 158
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba10541dd3194620800000000000000
+      internalID: 2758758086990633655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_38
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 152
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25085a4d778e312c0800000000000000
+      internalID: -4461967204427661230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b1315f62027c390800000000000000
+      internalID: -7798228878076208289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_40
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 119
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac592e624dd24b990800000000000000
+      internalID: -7371216300889958966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_41
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 141
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42c7883ad74b6870800000000000000
+      internalID: 8677108109636256330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_42
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 146
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d715b0d48a332d0800000000000000
+      internalID: -3300109053076603582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_43
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 140
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabce14e55881aba0800000000000000
+      internalID: -6079428119492637778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_44
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 136
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff168cf496cdf600800000000000000
+      internalID: 503777076529471477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_45
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 131
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176032ac0d9a93350800000000000000
+      internalID: 5997011093030110833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Energy_Storage 1_46
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 135
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908183230328dec20800000000000000
+      internalID: 3237386850661832713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      T_Energy_Storage 1_0: -2333789010292076757
+      T_Energy_Storage 1_1: 5420269676976592478
+      T_Energy_Storage 1_10: -1203124359956717348
+      T_Energy_Storage 1_11: -4471879015142954359
+      T_Energy_Storage 1_12: 75529901609553753
+      T_Energy_Storage 1_13: 5627347347368196867
+      T_Energy_Storage 1_14: -7321365516801093944
+      T_Energy_Storage 1_15: -2721033203560594414
+      T_Energy_Storage 1_16: -59914426225555963
+      T_Energy_Storage 1_17: 8976483461707354940
+      T_Energy_Storage 1_18: -2825309197875969286
+      T_Energy_Storage 1_19: 5671406167856332756
+      T_Energy_Storage 1_2: -4678818342651322201
+      T_Energy_Storage 1_20: 2765060304280938114
+      T_Energy_Storage 1_21: 2996044139701938885
+      T_Energy_Storage 1_22: 6799268969230282
+      T_Energy_Storage 1_23: -3842829667342429131
+      T_Energy_Storage 1_24: -3342976222273064710
+      T_Energy_Storage 1_25: -1565007307667700040
+      T_Energy_Storage 1_26: 6007541984681312398
+      T_Energy_Storage 1_27: -2537323922410171173
+      T_Energy_Storage 1_28: -1264131349586425656
+      T_Energy_Storage 1_29: 8209540932317016465
+      T_Energy_Storage 1_3: 245665469032862236
+      T_Energy_Storage 1_30: 1345159461823202123
+      T_Energy_Storage 1_31: 1789324165581813892
+      T_Energy_Storage 1_32: -3105462926256010582
+      T_Energy_Storage 1_33: -4741505516816827098
+      T_Energy_Storage 1_34: -5404408692648766184
+      T_Energy_Storage 1_35: 4600771218382607048
+      T_Energy_Storage 1_36: -3417840724233318242
+      T_Energy_Storage 1_37: 2758758086990633655
+      T_Energy_Storage 1_38: -4461967204427661230
+      T_Energy_Storage 1_39: -7798228878076208289
+      T_Energy_Storage 1_4: 1678626836616295290
+      T_Energy_Storage 1_40: -7371216300889958966
+      T_Energy_Storage 1_41: 8677108109636256330
+      T_Energy_Storage 1_42: -3300109053076603582
+      T_Energy_Storage 1_43: -6079428119492637778
+      T_Energy_Storage 1_44: 503777076529471477
+      T_Energy_Storage 1_45: 5997011093030110833
+      T_Energy_Storage 1_46: 3237386850661832713
+      T_Energy_Storage 1_5: -5352114004999959432
+      T_Energy_Storage 1_6: 5728960847622305986
+      T_Energy_Storage 1_7: -5231764299241545387
+      T_Energy_Storage 1_8: 7636924877419883529
+      T_Energy_Storage 1_9: 3681011372923577863
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

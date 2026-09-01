@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - PlayerHand
+  - Audio
+  - Fuel
+  - Ground
+  - MapObstacle
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - RenderTexture
+  - Water
+  - UI
+  - Ground
+  - Ladder
+  - Object
+  - Player
+  - Machine
+  - GroundForObject
+  - MapShip
+  - MapObstacle
+  - Platform
+  - Room
+  - Door
+  - BlockLight
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Water
+    uniqueID: 742214507
+    locked: 0
+  - name: SubmarineBG
+    uniqueID: 3685187877
+    locked: 0
+  - name: Ground-BlockLight
+    uniqueID: 2723643075
+    locked: 0
+  - name: Ground
+    uniqueID: 424295663
+    locked: 0
+  - name: FakeGround
+    uniqueID: 54423871
+    locked: 0
+  - name: Machine
+    uniqueID: 1551001269
+    locked: 0
+  - name: Player
+    uniqueID: 3685395591
+    locked: 0
+  - name: Cargo
+    uniqueID: 1878603509
+    locked: 0
+  - name: UI
+    uniqueID: 2179860349
+    locked: 0
+  - name: Particle
+    uniqueID: 292946315
+    locked: 0
+  - name: InShipWater
+    uniqueID: 276577817
+    locked: 0
+  m_RenderingLayers:
+  - Default

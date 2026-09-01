@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 6d96eee6d0ac49808c456c7a912b5b48
+timeCreated: 1781526993
+AssetOrigin:
+  serializedVersion: 1
+  productId: 320067
+  packageName: TileWorldCreator 4
+  packageVersion: 4.3.5
+  assetPath: Assets/TileWorldCreator/Code/Attributes/BlueprintLayerAttribute.cs
+  uploadId: 936256

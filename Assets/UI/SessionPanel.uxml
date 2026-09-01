@@ -1,0 +1,44 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="PressureExpress.uss" />
+
+    <!-- In-game pause / session panel. This is where invites live now that the flow goes
+         MainMenu -> MainLevel with no waiting room. -->
+    <ui:VisualElement name="screen" class="screen overlay">
+
+        <ui:VisualElement name="session-panel" class="panel enter">
+
+            <ui:VisualElement class="row--between">
+                <ui:Label text="DIVE IN PROGRESS" class="subtitle" style="margin-bottom: 0;" />
+                <ui:Button name="close-button" text="" class="btn btn--close" />
+            </ui:VisualElement>
+
+            <ui:VisualElement class="bolts" picking-mode="Ignore" />
+
+            <ui:VisualElement class="panel__inner">
+
+                <ui:Label text="ROOM CODE" class="section-label" />
+                <ui:Label name="room-code" text="------" class="code-display" />
+
+                <ui:VisualElement class="row">
+                    <ui:Button name="copy-button" text="COPY" class="btn btn--ghost"
+                               style="flex-grow: 1; margin-right: 8px;" />
+                    <ui:Button name="invite-button" text="INVITE FRIENDS" class="btn"
+                               style="flex-grow: 2;" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="divider" picking-mode="Ignore" />
+
+                <ui:Button name="resume-button" text="RESUME" class="btn btn--primary" />
+                <ui:Button name="settings-button" text="SETTINGS" class="btn btn--ghost" />
+                <ui:Button name="leave-button" text="LEAVE DIVE" class="btn btn--ghost btn--danger" />
+
+            </ui:VisualElement>
+
+            <ui:Label name="feedback" class="status" />
+
+        </ui:VisualElement>
+
+        <ui:VisualElement name="settings-host" class="overlay hidden" />
+
+    </ui:VisualElement>
+</ui:UXML>

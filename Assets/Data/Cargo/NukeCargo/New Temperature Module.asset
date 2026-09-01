@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 340865778638e19419b00b8db8304fad, type: 3}
+  m_Name: New Temperature Module
+  m_EditorClassIdentifier: 
+  visualStates: []
+  minTemp: -100
+  maxTemp: 100
+  idealTemp: 0
+  heatTransferRate: 1000
+  hotStates:
+  - stateName: <48
+    thresholdPercent: 48
+    sprite: {fileID: 0}
+    particlePrefab: {fileID: 0}
+  - stateName: <50
+    thresholdPercent: 50
+    sprite: {fileID: 0}
+    particlePrefab: {fileID: 7670389070447750734, guid: 6a0ebed27f5757b48ad1121dd174c080, type: 3}
+  - stateName: <100
+    thresholdPercent: 100
+    sprite: {fileID: 0}
+    particlePrefab: {fileID: 5011095844670125004, guid: a64cf44528feb24449da2d24812168bb, type: 3}
+  coldStates:
+  - stateName: <48
+    thresholdPercent: 48
+    sprite: {fileID: 0}
+    particlePrefab: {fileID: 0}
+  - stateName: <50
+    thresholdPercent: 50
+    sprite: {fileID: 0}
+    particlePrefab: {fileID: 5591939490796962978, guid: 90500308b411e2b4c9e23b50da667c53, type: 3}
+  - stateName: <100
+    thresholdPercent: 100
+    sprite: {fileID: 0}
+    particlePrefab: {fileID: 2521173280415579620, guid: b8e54bd5110d5044a87071c6c7717a79, type: 3}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 929ad1b3bfd276148aefd761d4a99c91, type: 3}
+  m_Name: Easy-Setting
+  m_EditorClassIdentifier: 
+  destinationCount: 3
+  nodeCountToDestination: 2
+  maxChildPerNodes: 2
+  blankMapChance: 10
+  treasureMapChance: 10
+  dangerMapChance: 10
+  mysteryMapChance: 10

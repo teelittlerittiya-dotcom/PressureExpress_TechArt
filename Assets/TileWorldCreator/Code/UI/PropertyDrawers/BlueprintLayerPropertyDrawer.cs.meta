@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 6170e515901b4b8bb2d2382c1553b525
+timeCreated: 1781527014
+AssetOrigin:
+  serializedVersion: 1
+  productId: 320067
+  packageName: TileWorldCreator 4
+  packageVersion: 4.3.5
+  assetPath: Assets/TileWorldCreator/Code/UI/PropertyDrawers/BlueprintLayerPropertyDrawer.cs
+  uploadId: 936256

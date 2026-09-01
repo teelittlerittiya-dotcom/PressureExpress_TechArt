@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 953dcc4a8f6804f4ba60cc7418d7ee11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2998592432220399149
+    second: T_WaterTank_0
+  - first:
+      213: 8975765639378486609
+    second: T_WaterTank_1
+  - first:
+      213: -5557806902607693513
+    second: T_WaterTank_2
+  - first:
+      213: -3604689795886242972
+    second: T_WaterTank_3
+  - first:
+      213: 958379572225794908
+    second: T_WaterTank_4
+  - first:
+      213: 2865014223228461437
+    second: T_WaterTank_5
+  - first:
+      213: 3253169638448139087
+    second: T_WaterTank_6
+  - first:
+      213: 2200972676137833379
+    second: T_WaterTank_7
+  - first:
+      213: -3665278895412637459
+    second: T_WaterTank_8
+  - first:
+      213: -3250083814199159363
+    second: T_WaterTank_9
+  - first:
+      213: 1465807443604995851
+    second: T_WaterTank_10
+  - first:
+      213: -45078072395280464
+    second: T_WaterTank_11
+  - first:
+      213: -8462867185858128696
+    second: T_WaterTank_12
+  - first:
+      213: -8881571277045409570
+    second: T_WaterTank_13
+  - first:
+      213: 5120852334757460006
+    second: T_WaterTank_14
+  - first:
+      213: -7634375734546501949
+    second: T_WaterTank_15
+  - first:
+      213: 3521787596470329909
+    second: T_WaterTank_16
+  - first:
+      213: 4172139709732307857
+    second: T_WaterTank_17
+  - first:
+      213: 7279644617122105398
+    second: T_WaterTank_18
+  - first:
+      213: -5397770234771082579
+    second: T_WaterTank_19
+  - first:
+      213: 9192970835147318892
+    second: T_WaterTank_20
+  - first:
+      213: -9050560184867181569
+    second: T_WaterTank_21
+  - first:
+      213: 1989338167349982573
+    second: T_WaterTank_22
+  - first:
+      213: 5865956550372982056
+    second: T_WaterTank_23
+  - first:
+      213: -6460517959070873153
+    second: T_WaterTank_24
+  - first:
+      213: -8667968162383463965
+    second: T_WaterTank_25
+  - first:
+      213: 3437267872390591666
+    second: T_WaterTank_26
+  - first:
+      213: 7833828679144311769
+    second: T_WaterTank_27
+  - first:
+      213: -3221733505842655884
+    second: T_WaterTank_28
+  - first:
+      213: 136917173615150773
+    second: T_WaterTank_29
+  - first:
+      213: 204119773032401321
+    second: T_WaterTank_30
+  - first:
+      213: 3736384695110541533
+    second: T_WaterTank_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T_WaterTank_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26ebac0ee32d9920800000000000000
+      internalID: 2998592432220399149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 120
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155cf4a1b43509c70800000000000000
+      internalID: 8975765639378486609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 99
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739badf8114bed2b0800000000000000
+      internalID: -5557806902607693513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 120
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463a9b6aab199fdc0800000000000000
+      internalID: -3604689795886242972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_4
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 112
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53628aa429dc4d00800000000000000
+      internalID: 958379572225794908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 120
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7169fba14392c720800000000000000
+      internalID: 2865014223228461437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_6
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 112
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b89c5dc84952d20800000000000000
+      internalID: 3253169638448139087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 76
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a35989dcfc6b8e10800000000000000
+      internalID: 2200972676137833379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 80
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0913c9340522dc0800000000000000
+      internalID: -3665278895412637459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_9
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 104
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5996c9df165e2d0800000000000000
+      internalID: -3250083814199159363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_10
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 96
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ff2319a18975410800000000000000
+      internalID: 1465807443604995851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 91
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf48b36bb9df5ff0800000000000000
+      internalID: -45078072395280464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_12
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 88
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4dd95f12bdd8a80800000000000000
+      internalID: -8462867185858128696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed85568eaf15eb480800000000000000
+      internalID: -8881571277045409570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_14
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 55
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628b278211ce01740800000000000000
+      internalID: 5120852334757460006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_15
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 72
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce6e74d7bf3d0690800000000000000
+      internalID: -7634375734546501949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_16
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 80
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532adf5e827efd030800000000000000
+      internalID: 3521787596470329909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_17
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 72
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19345e706fa66e930800000000000000
+      internalID: 4172139709732307857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 13
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638c5a6c53e760560800000000000000
+      internalID: 7279644617122105398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_19
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 46
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2fa41f1944715b0800000000000000
+      internalID: -5397770234771082579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_20
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 64
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c666b73a44ef39f70800000000000000
+      internalID: 9192970835147318892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_21
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 56
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffba2bab673f56280800000000000000
+      internalID: -9050560184867181569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_22
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 64
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65b503f58c8b9b10800000000000000
+      internalID: 1989338167349982573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_23
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 13
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d7bd44760186150800000000000000
+      internalID: 5865956550372982056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_24
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 20
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb98c804521a756a0800000000000000
+      internalID: -6460517959070873153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_25
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 36
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9fcb491e035b780800000000000000
+      internalID: -8667968162383463965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_26
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 48
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b434b32be0a3bf20800000000000000
+      internalID: 3437267872390591666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_27
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 11
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db0aa3ada957bc60800000000000000
+      internalID: 7833828679144311769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_28
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 6
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d4647227a1a43d0800000000000000
+      internalID: -3221733505842655884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_29
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 3
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b64bf8a17d66e100800000000000000
+      internalID: 136917173615150773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_30
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 38
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9ca332add25d200800000000000000
+      internalID: 204119773032401321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_WaterTank_31
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 28
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd02540851e4ad330800000000000000
+      internalID: 3736384695110541533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      T_WaterTank_0: 2998592432220399149
+      T_WaterTank_1: 8975765639378486609
+      T_WaterTank_10: 1465807443604995851
+      T_WaterTank_11: -45078072395280464
+      T_WaterTank_12: -8462867185858128696
+      T_WaterTank_13: -8881571277045409570
+      T_WaterTank_14: 5120852334757460006
+      T_WaterTank_15: -7634375734546501949
+      T_WaterTank_16: 3521787596470329909
+      T_WaterTank_17: 4172139709732307857
+      T_WaterTank_18: 7279644617122105398
+      T_WaterTank_19: -5397770234771082579
+      T_WaterTank_2: -5557806902607693513
+      T_WaterTank_20: 9192970835147318892
+      T_WaterTank_21: -9050560184867181569
+      T_WaterTank_22: 1989338167349982573
+      T_WaterTank_23: 5865956550372982056
+      T_WaterTank_24: -6460517959070873153
+      T_WaterTank_25: -8667968162383463965
+      T_WaterTank_26: 3437267872390591666
+      T_WaterTank_27: 7833828679144311769
+      T_WaterTank_28: -3221733505842655884
+      T_WaterTank_29: 136917173615150773
+      T_WaterTank_3: -3604689795886242972
+      T_WaterTank_30: 204119773032401321
+      T_WaterTank_31: 3736384695110541533
+      T_WaterTank_4: 958379572225794908
+      T_WaterTank_5: 2865014223228461437
+      T_WaterTank_6: 3253169638448139087
+      T_WaterTank_7: 2200972676137833379
+      T_WaterTank_8: -3665278895412637459
+      T_WaterTank_9: -3250083814199159363
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
